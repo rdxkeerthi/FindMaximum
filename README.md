@@ -1,4 +1,4 @@
-![image](https://github.com/rdxkeerthi/FindMaximum/assets/147473120/b9145708-7e71-42c4-b0fd-94970dd2f1ce)# Find the maximum of a list of numbers
+# Find the maximum of a list of numbers
 ## Aim:
 To write a program to find the maximum of a list of numbers.
 ## Equipment’s required:
@@ -21,33 +21,42 @@ def max_marks(marks):
 ```
 
 ii)	# To find the maximum marks using the list method max().
-```Python
+```
+Program to mark the maximum of marks using the list method sort
+Developed by: KEERTHIVASAN M
+RegisterNumber: 212223100021
 
 def max_marks(marks):
     marks.sort()
     large=marks[-1]
     return large
-
 ```
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
-
-def max_marks(marks):
-    marks.sort()
-    large=marks[-1]
-    return large
-
+``` 
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: KEERTHIVASAN M
+RegisterNumber: 212223100021
+'''
+def max_marks(list1):
+    max = list1[0]
+    for i in list1:
+        if i>max:
+            max=i
+    return max
+    
 ```
 
 
 
 ## Output:
-![Screenshot 2024-03-24 194051](https://github.com/rdxkeerthi/FindMaximum/assets/147473120/6ae0dfd7-fa25-4e41-9800-cf0e4de7540a)
-![Screenshot 2024-03-24 194112](https://github.com/rdxkeerthi/FindMaximum/assets/147473120/b279cb14-0007-40e4-bc76-55ebbdd342c5)
 
-![Screenshot 2024-03-24 194123](https://github.com/rdxkeerthi/FindMaximum/assets/147473120/974601b3-aac8-4c2d-811b-29b8bac43d3d)
+![Screenshot 2024-04-08 170221](https://github.com/rdxkeerthi/FindMaximum/assets/147473120/4ea531b0-d8ad-4eeb-b94e-07a15af3e1e1)
 
+![Screenshot 2024-04-08 170313](https://github.com/rdxkeerthi/FindMaximum/assets/147473120/9218bab4-3a02-47c1-82bd-a0a82e8cf64f)
+
+![Screenshot 2024-04-08 170427](https://github.com/rdxkeerthi/FindMaximum/assets/147473120/9fcf78a1-afa8-46bb-8f6d-62f26d842ad4)
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
